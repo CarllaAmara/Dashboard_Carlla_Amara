@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dashboard_Carlla_Amara"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        icon: Houses
+      - href: about.qmd
+        text: Sobre
+      - href: dash_cb.html
+        text: Dashoard
+
+format:
+  html:
+    theme: Cerulean
+    css: styles.css
+    toc: true
+
+
+
